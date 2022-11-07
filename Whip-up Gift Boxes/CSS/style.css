@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+div.header {
+  background: url(../Media/vapor.jpg);
+  background-size: 400px;
+  margin: 0;
+  text-align: center;
+  font-family: "Black Bruno";
+  color: white;
+  font-size: 200%;
+  text-shadow: 2px 2px 5px #f62e97;
+}
+
+.content {
+  margin-top: 18px;
+  margin-left: 34%;
+  /* margin-right: 50%; */
+  padding: 20px;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px #f62e97;
+  background-image: url("../Media/bgt.gif");
+  background-size: cover;
+  border-radius: 6px;
+  display: inline-block;
+}
+button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+font-family: 'VT323', monospace;
+	font-size: 30px;
+  color: aliceblue;
+  text-shadow: 4px 1px 2px #f62e97;
+  background-color: transparent;
+  size: 200px;
+	/* position: relative;
+	display: inline-block; */
+}
+#goddamn{
+  margin-top: 11px;
+  margin-left:30% ;
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 6px;
+   outline: solid mediumvioletred 3px;
+   border: solid orange 0.5px;
+   background-image: url("../Media/giphy.gif");
+   background-size: contain;
+}
+#goddamn img{
+   width: 10%;
+   float: left;
+   margin: 2px;
+
+}
